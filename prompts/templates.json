@@ -1,1 +1,9 @@
-// Les 3 formats de tweets figés (Annonce, Résultat, News)
+{
+    "Annonce": "🚨 {titre} 🇹🇷\n\n{corps}\n\n🆚 {adversaire}\n🏢 {organisation} ({categorie})\n📅 {date_combat}\n\n{question} 👇 #{organisation} #MMA",
+    
+    "Resultat_Victoire": "💥 {titre} 🇹🇷\n\n{corps}\n\n🥊 Victoire par {methode_victoire} (vs {adversaire})\n🏢 {organisation}\n\n{question} 👇 #{organisation}",
+    
+    "Resultat_Defaite": "💔 {titre} 🇹🇷\n\n{corps}\n\n🥊 Défaite par {methode_victoire} (vs {adversaire})\n🏢 {organisation}\n\n{question} 🙏 #{organisation}",
+    
+    "News": "ℹ️ {titre} 🇹🇷\n\n{corps}\n\n{question} 👇 #{organisation}"
+}
