@@ -26,18 +26,26 @@ class Post(BaseModel):
     corps: str = Field(description="1 à 3 phrases naturelles et punchy résumant l'info. Explosif si victoire/annonce, respectueux et encourageant si défaite, informatif si news.")
     question: Optional[str] = Field(None, description="Question courte pour faire réagir les abonnés en commentaire")
 
-def extraire_information(texte: str) -> Post:
+def extraire_information(texte: Optional[str] = None, image: Optional[bytes] = None) -> Post:
 
     prompt_systeme = """
     Tu es le rédacteur en chef d'un média X (Twitter) spécialisé dans les sports de combat (MMA, Kickboxing, Boxe, Muay Thaï) suivant les combattants turcs.
-    1. Extrais les informations factuelles du texte brut. Si une donnée manque, laisse null (n'invente jamais de faits).
+    1. Extrais les informations factuelles de la source (texte, article ou capture d'écran/affiche). Si une donnée manque, laisse null (n'invente jamais de faits).
     2. Rédige les champs éditoriaux (titre, corps, question) en français avec un style percutant, dynamique et naturel, adapté aux réseaux sociaux et au jargon du combat (octogone, cage, striking, KO, short-notice, etc.).
     3. Adapte le ton : explosif pour une victoire ou une annonce, sobre et respectueux pour une défaite, informatif pour une news.
     """
 
+    contenus = [prompt_systeme]
+
+    if image:
+        contenus.append(genai.types.Part.from_bytes(data=image, mime_type="image/jpeg"))
+
+    if texte:
+        contenus.append(f"Texte source: {texte}")
+
     response = client.models.generate_content(
         model='gemini-3.8-flash',
-        contents = f"{prompt_systeme}\n\nTexte source : {texte}",
+        contents = contenus,
         config=genai.types.GenerateContentConfig(
             response_mime_type="application/json",
             response_schema=Post,
