@@ -1,0 +1,6 @@
+google-genai
+pydantic
+python-telegram-bot[job-queue]
+requests
+python-dotenv
+tzdata
