@@ -21,6 +21,7 @@ git clone [https://github.com/maku25/mmagent.git](https://github.com/maku25/mmag
 cd mmagent
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+```
 
 
 2. Créer un fichier `.env` à la racine du projet :
