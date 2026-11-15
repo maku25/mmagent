@@ -1,0 +1,24 @@
+{
+  "combattants": [
+    {
+      "nom": "Ibo Aslan",
+      "organisation": "UFC",
+      "requete": "\"Ibo Aslan\" UFC"
+    },
+    {
+      "nom": "Tayfun Özcan",
+      "organisation": "Glory",
+      "requete": "\"Tayfun Ozcan\" OR \"Tayfun Özcan\""
+    },
+    {
+      "nom": "Bahram Rajabzadeh",
+      "organisation": "Glory",
+      "requete": "\"Bahram Rajabzadeh\" Glory"
+    },
+    {
+        "nom": "Islam Dulatov",
+        "organisation": "UFC",
+        "requete": "\"Islam Dulatov\" UFC"
+    }
+  ]
+}
