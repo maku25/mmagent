@@ -1,24 +1,114 @@
 {
   "combattants": [
     {
+      "nom": "Abdulrakhman Yakhyaev",
+      "organisation": "UFC",
+      "requete": "Abdulrakhman Yakhyaev UFC"
+    },
+    {
       "nom": "Ibo Aslan",
       "organisation": "UFC",
-      "requete": "\"Ibo Aslan\" UFC"
+      "requete": "Ibo Aslan UFC"
+    },
+    {
+      "nom": "Islam Dulatov",
+      "organisation": "UFC",
+      "requete": "Islam Dulatov UFC"
+    },
+    {
+      "nom": "Kaan Ofli",
+      "organisation": "UFC",
+      "requete": "Kaan Ofli UFC"
+    },
+    {
+      "nom": "Gökhan Sarıcam",
+      "organisation": "PFL",
+      "requete": "Gokhan Saricam MMA"
+    },
+    {
+      "nom": "Erhan Kartal",
+      "organisation": "PFL",
+      "requete": "Erhan Kartal PFL"
+    },
+    {
+      "nom": "Kerim Engizek",
+      "organisation": "Oktagon MMA",
+      "requete": "Kerim Engizek Oktagon"
+    },
+    {
+      "nom": "Emir-Can Al",
+      "organisation": "Oktagon MMA",
+      "requete": "Emir-Can Al Oktagon"
+    },
+    {
+      "nom": "Halil Amir",
+      "organisation": "ONE Championship",
+      "requete": "Halil Amir ONE"
+    },
+    {
+      "nom": "Deniz Demirkapu",
+      "organisation": "ONE Championship",
+      "requete": "Deniz Demirkapu ONE"
+    },
+    {
+      "nom": "Mehmet Borhan",
+      "organisation": "PEF / MMA",
+      "requete": "Mehmet Borhan MMA"
+    },
+    {
+      "nom": "Mikail Tamoz",
+      "organisation": "BJJ / Grappling",
+      "requete": "Mikail Tamoz"
     },
     {
       "nom": "Tayfun Özcan",
-      "organisation": "Glory",
-      "requete": "\"Tayfun Ozcan\" OR \"Tayfun Özcan\""
+      "organisation": "Kickboxing",
+      "requete": "Tayfun Ozcan kickboxing"
     },
     {
       "nom": "Bahram Rajabzadeh",
       "organisation": "Glory",
-      "requete": "\"Bahram Rajabzadeh\" Glory"
+      "requete": "Bahram Rajabzadeh Glory"
     },
     {
-        "nom": "Islam Dulatov",
-        "organisation": "UFC",
-        "requete": "\"Islam Dulatov\" UFC"
+      "nom": "Serkan Özçağlayan",
+      "organisation": "Glory",
+      "requete": "Serkan Ozcaglayan Glory"
+    },
+    {
+      "nom": "Gökhan Saki",
+      "organisation": "Glory / Kickboxing",
+      "requete": "Gokhan Saki"
+    },
+    {
+      "nom": "Taha Akgül",
+      "organisation": "Lutte",
+      "requete": "Taha Akgul wrestling"
+    },
+    {
+      "nom": "Rıza Kayaalp",
+      "organisation": "Lutte",
+      "requete": "Riza Kayaalp wrestling"
+    },
+    {
+      "nom": "Feyzullah Aktürk",
+      "organisation": "Lutte",
+      "requete": "Feyzullah Akturk wrestling"
+    },
+    {
+      "nom": "Alperen Berber",
+      "organisation": "Lutte",
+      "requete": "Alperen Berber wrestling"
+    },
+    {
+      "nom": "Selçuk Can",
+      "organisation": "Lutte",
+      "requete": "Selcuk Can wrestling"
+    },
+    {
+      "nom": "Soner Demirtaş",
+      "organisation": "Lutte",
+      "requete": "Soner Demirtas wrestling"
     }
   ]
 }
