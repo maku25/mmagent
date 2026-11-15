@@ -5,7 +5,7 @@ Outil de veille et de rédaction automatisée pour produire des posts média pr�
 
 ## Fonctionnalités
 
-**Veille automatique :** Recherche d'actualités sur une liste de sujets (`data/watchlist.json`) via Tavily et filtrage des doublons (`data/seen_urls.json`).
+* **Veille automatique :** Recherche d'actualités sur une liste de sujets (`data/watchlist.json`) via Tavily et filtrage des doublons (`data/seen_urls.json`).
 * **Rédaction à la demande :** Transformation d'un lien X (`fxTwitter`), d'un article (`Jina AI`), d'un texte ou d'une capture d'écran en post formaté.
 * **Mise en page cohérente :** Extraction des infos clés avec Gemini et Pydantic, puis application de modèles prédéfinis (`prompts/templates.json`).
 
