@@ -15,7 +15,7 @@ CHEMIN_WATCHLIST = DOSSIER_DATA / "watchlist.json"
 CHEMIN_SEEN = DOSSIER_DATA / "seen_urls.json"
 
 SEUIL_IMPORTANCE = 5 
-JOURS_RECHERCHE = 30
+JOURS_RECHERCHE = 4
 
 def charger_watchlist() -> list[dict]:
     with open(CHEMIN_WATCHLIST, "r", encoding="utf-8") as f:
